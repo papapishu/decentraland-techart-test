@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: 4800000, guid: 7fae18bbd8916984a98f2f67712596b1, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: e56f6d3d27b3d114d829c70f8cb68423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SeaFoam:
+        m_Texture: {fileID: 2800000, guid: c517c6b32e520714ab806e5ebd77ab0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Depth: 1
+    - _EdgeDistance: 0.25
+    - _EdgeFoamTile: 2
+    - _EdgeLength: 15
+    - _EdgePower: 0.2
+    - _NormalSpeed: 0.001
+    - _NormalStrength: 0.177
+    - _NormalTile: 0.1
+    - _RefractAmount: 0.7
+    - _SeaFoamTile: 2
+    - _WaveHeight: 0.2
+    - _WaveSpeed: 0.18
+    - _WaveTile: -2.58
+    - __dirty: 0
+    m_Colors:
+    - _FoamColor: {r: 0.40494835, g: 0.4298051, b: 0.49056602, a: 0}
+    - _TopColour: {r: 0.28261817, g: 0.6851085, b: 0.8207547, a: 0}
+    - _WaterColour: {r: 0.23380196, g: 0.5382075, b: 0.6981132, a: 0}
+    - _foamcolor: {r: 0.6415094, g: 0.009077947, b: 0.55658215, a: 1}
+  m_BuildTextureStacks: []
